@@ -1,0 +1,18 @@
+Process: com.android.mms
+Flags: 0x4088be65
+Package: com.android.mms v21 (5.0.2-4174711)
+Build: generic_x86_64/sdk_phone_x86_64/generic_x86_64:5.0.2/LSY66K/4174711:eng/test-keys
+System-App: true
+Uptime-Millis: 23531
+
+java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.drm.DrmManagerClient.<init>(DrmManagerClient.java:258)
+	at com.google.android.mms.pdu.PduPersister.<init>(PduPersister.java:288)
+	at com.google.android.mms.pdu.PduPersister.getPduPersister(PduPersister.java:299)
+	at com.android.mms.transaction.TransactionService.onNewIntent(TransactionService.java:224)
+	at com.android.mms.transaction.TransactionService$ServiceHandler.handleMessage(TransactionService.java:626)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+

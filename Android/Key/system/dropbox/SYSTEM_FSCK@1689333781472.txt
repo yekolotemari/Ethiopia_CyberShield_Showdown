@@ -1,0 +1,33 @@
+Build: generic_x86_64/sdk_phone_x86_64/generic_x86_64:5.0.2/LSY66K/4174711:eng/test-keys
+Hardware: unknown
+Revision: 0
+Bootloader: unknown
+Radio: unknown
+Kernel: Linux version 3.10.0+ (lfy@lfy0.mtv.corp.google.com) (gcc version 4.9 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Wed Feb 22 09:16:01 PST 2017
+
+e2fsck 1.42.9 (28-Dec-2013)
+
+/dev/block/vdc primary superblock features different from backup, check forced.
+
+Pass 1: Checking inodes, blocks, and sizes
+
+Inode 7, i_size is 532742144, should be 536932352.  Fix? yes
+
+
+
+Pass 2: Checking directory structure
+
+Pass 3: Checking directory connectivity
+
+Pass 4: Checking reference counts
+
+Pass 5: Checking group summary information
+
+
+
+/dev/block/vdc: ***** FILE SYSTEM WAS MODIFIED *****
+
+/dev/block/vdc: 42/57344 files (0.0% non-contiguous), 13956/204800 blocks
+
+e2fsck terminated by exit(1)
+

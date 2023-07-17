@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs version="1">
+<p pkg="com.android.deskclock" cl="com.android.alarmclock.AnalogAppWidgetProvider" tag="3" />
+<h pkg="com.android.launcher" id="400" tag="0" />
+<g id="2" rid="0" h="0" p="3" min_width="98" min_height="83" max_width="c3" max_height="b8" host_category="1" />
+</gs>

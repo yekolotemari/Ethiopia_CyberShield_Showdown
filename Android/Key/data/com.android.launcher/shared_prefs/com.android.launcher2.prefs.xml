@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="cling.allapps.dismissed" value="true" />
+    <string name="android.incremental.version">4174711</string>
+    <boolean name="cling.workspace.dismissed" value="true" />
+    <int name="apps.new.page" value="-1" />
+</map>

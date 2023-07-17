@@ -1,0 +1,22 @@
+Process: com.android.calendar
+Flags: 0x89be45
+Package: com.android.calendar v21 (5.0.2-4174711)
+Build: generic_x86_64/sdk_phone_x86_64/generic_x86_64:5.0.2/LSY66K/4174711:eng/test-keys
+System-App: true
+Uptime-Millis: 22995
+
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.content.ContentResolver$CursorWrapperInner.<init>(ContentResolver.java:2447)
+	at android.content.ContentResolver.query(ContentResolver.java:502)
+	at android.content.CursorLoader.loadInBackground(CursorLoader.java:64)
+	at android.content.CursorLoader.loadInBackground(CursorLoader.java:42)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+

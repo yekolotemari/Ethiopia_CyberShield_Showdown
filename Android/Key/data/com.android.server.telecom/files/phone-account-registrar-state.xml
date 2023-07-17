@@ -1,0 +1,22 @@
+<phone_account_registrar_state version="3">
+<accounts>
+<phone_account>
+<account_handle>
+<phone_account_handle>
+<component_name>com.android.phone/com.android.services.telephony.TelephonyConnectionService</component_name>
+<id>1</id>
+</phone_account_handle>
+</account_handle>
+<handle>tel:%2B15555215556</handle>
+<subscription_number>tel:%2B15555215556</subscription_number>
+<capabilities>22</capabilities>
+<icon_res_id>2130837526</icon_res_id>
+<label>Android</label>
+<short_description>Android</short_description>
+<supported_uri_schemes length="2">
+<value>tel</value>
+<value>voicemail</value>
+</supported_uri_schemes>
+</phone_account>
+</accounts>
+</phone_account_registrar_state>

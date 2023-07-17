@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-restrictions>
+    <pkg name="com.android.calendar">
+        <disabled-components>
+            <item name="com.android.calendar.UpgradeReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.example.android.apis" stopped="true" nl="true" />
+    <pkg name="com.android.sdksetup">
+        <disabled-components>
+            <item name="com.android.sdksetup.DefaultActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.example.android.softkeyboard" stopped="true" nl="true" />
+    <pkg name="com.android.settings">
+        <disabled-components>
+            <item name="com.android.settings.CryptKeeper" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.smoketest.tests" stopped="true" nl="true" />
+    <pkg name="com.android.smoketest" stopped="true" nl="true" />
+    <pkg name="com.android.widgetpreview" stopped="true" nl="true" />
+    <pkg name="com.example.android.livecubes" stopped="true" nl="true" />
+    <pkg name="com.android.inputmethod.latin">
+        <disabled-components>
+            <item name="com.android.inputmethod.latin.setup.SetupActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.gesture.builder" stopped="true" nl="true" />
+    <pkg name="com.android.email">
+        <enabled-components>
+            <item name="com.android.email.service.EasAuthenticatorService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.android.email.service.EasAuthenticatorServiceAlternate" />
+            <item name="com.android.email.service.LegacyEasAuthenticatorService" />
+            <item name="com.android.email.service.EmailUpgradeBroadcastReceiver" />
+            <item name="com.android.email.service.LegacyEmailAuthenticatorService" />
+            <item name="com.android.email.activity.ComposeActivityEmail" />
+            <item name="com.android.email.service.AttachmentService" />
+        </disabled-components>
+    </pkg>
+    <preferred-activities>
+        <item name="com.android.mms/.ui.ComposeMessageActivity" match="200000" always="true" set="2">
+            <set name="com.android.mms/.ui.ComposeMessageActivity" />
+            <set name="com.example.android.apis/.os.MmsMessagingDemo" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="mmsto" />
+            </filter>
+        </item>
+        <item name="com.android.mms/.ui.ComposeMessageActivity" match="200000" always="true" set="2">
+            <set name="com.android.mms/.ui.ComposeMessageActivity" />
+            <set name="com.example.android.apis/.os.MmsMessagingDemo" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="mms" />
+            </filter>
+        </item>
+        <item name="com.android.mms/.ui.ComposeMessageActivity" match="200000" always="true" set="2">
+            <set name="com.android.mms/.ui.ComposeMessageActivity" />
+            <set name="com.example.android.apis/.os.SmsMessagingDemo" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="smsto" />
+            </filter>
+        </item>
+        <item name="com.android.mms/.ui.ComposeMessageActivity" match="200000" always="true" set="3">
+            <set name="com.android.mms/.ui.ComposeMessageActivity" />
+            <set name="com.example.android.apis/.os.SmsMessagingDemo" />
+            <set name="com.android.fallback/.Fallback" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="sms" />
+            </filter>
+        </item>
+    </preferred-activities>
+    <persistent-preferred-activities />
+    <crossProfile-intent-filters />
+</package-restrictions>

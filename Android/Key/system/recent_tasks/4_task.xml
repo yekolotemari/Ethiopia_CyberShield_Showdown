@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<task task_id="4" real_activity="com.android.settings/.Settings" affinity="com.android.settings" root_has_reset="false" auto_remove_recents="false" asked_compat_mode="false" user_id="0" effective_uid="1000" task_type="0" first_active_time="1689333844565" last_active_time="1689333889942" last_time_moved="1689333844559" never_relinquish_identity="true" task_description_color="ff263238" task_affiliation_color="-14273992" task_affiliation="4" prev_affiliation="-1" next_affiliation="-1" calling_uid="10012" calling_package="com.android.systemui">
+<intent action="android.settings.SETTINGS" component="com.android.settings/.Settings" flags="14000000" />
+</task>
+

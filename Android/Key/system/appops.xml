@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<app-ops>
+<pkg n="android">
+<uid n="1000" p="true">
+<op n="3" t="1689333777664" d="15" />
+<op n="23" t="1689333781447" />
+<op n="40" t="1689333781457" d="1" />
+</uid>
+</pkg>
+<pkg n="com.android.server.telecom">
+<uid n="1001" p="true">
+<op n="6" t="1689333779678" />
+</uid>
+</pkg>
+<pkg n="com.android.phone">
+<uid n="1001" p="true">
+<op n="14" t="1689333781777" />
+<op n="15" m="0" />
+<op n="23" t="1689333781809" />
+<op n="40" t="1689333781759" d="123" />
+</uid>
+</pkg>
+<pkg n="com.android.mms.service">
+<uid n="1001" p="true">
+<op n="15" m="0" />
+</uid>
+</pkg>
+<pkg n="media">
+<uid n="1013" p="false">
+<op n="26" t="1689333780149" d="1" />
+<op n="40" t="1689333780805" d="1077" />
+</uid>
+</pkg>
+<pkg n="com.android.dialer">
+<uid n="10004" p="true">
+<op n="6" t="1689333781572" />
+</uid>
+</pkg>
+<pkg n="com.android.providers.media">
+<uid n="10005" p="true">
+<op n="40" t="1689333780423" d="151" />
+</uid>
+</pkg>
+<pkg n="com.android.launcher">
+<uid n="10007" p="true" />
+</pkg>
+<pkg n="com.android.mms">
+<uid n="10009" p="true">
+<op n="15" m="0" />
+</uid>
+</pkg>
+<pkg n="com.android.systemui">
+<uid n="10012" p="true">
+<op n="4" t="1689333780245" />
+<op n="23" t="1689333780289" />
+</uid>
+</pkg>
+<pkg n="com.android.deskclock">
+<uid n="10021" p="false" />
+</pkg>
+<pkg n="com.android.email">
+<uid n="10025" p="false" />
+</pkg>
+<pkg n="com.android.inputmethod.latin">
+<uid n="10030" p="false">
+<op n="4" t="1689333780344" />
+</uid>
+</pkg>
+<pkg n="com.android.music">
+<uid n="10033" p="false" />
+</pkg>
+<pkg n="com.android.sdksetup">
+<uid n="10042" p="false">
+<op n="23" t="1689333779716" />
+</uid>
+</pkg>
+</app-ops>

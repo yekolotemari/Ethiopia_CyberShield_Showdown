@@ -1,0 +1,43 @@
+Process: com.android.settings
+Flags: 0x40c83e45
+Package: com.android.settings v21 (5.0.2-4174711)
+Build: generic_x86_64/sdk_phone_x86_64/generic_x86_64:5.0.2/LSY66K/4174711:eng/test-keys
+System-App: true
+Uptime-Millis: 15468
+Loop-Violation-Number: 1
+Duration-Millis: 62
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=2951 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.mkdir(BlockGuardOs.java:172)
+	at java.io.File.mkdirErrno(File.java:874)
+	at java.io.File.mkdirs(File.java:898)
+	at java.io.File.mkdirs(File.java:892)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1277)
+	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:12092)
+	at com.android.server.pm.PackageManagerService.setComponentEnabledSetting(PackageManagerService.java:12000)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:1219)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1849)
+	at android.os.Binder.execTransact(Binder.java:446)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1717)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1521)
+	at android.os.Parcel.readException(Parcel.java:1490)
+	at android.content.pm.IPackageManager$Stub$Proxy.setComponentEnabledSetting(IPackageManager.java:3386)
+	at android.app.ApplicationPackageManager.setComponentEnabledSetting(ApplicationPackageManager.java:1489)
+	at com.android.settings.CryptKeeper.onCreate(CryptKeeper.java:390)
+	at android.app.Activity.performCreate(Activity.java:5937)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2251)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2360)
+	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5221)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+
