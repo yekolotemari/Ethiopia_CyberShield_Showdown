@@ -1,0 +1,37 @@
+[
+{
+	"Users":{
+		"admins":{
+			"username":"admin",
+			"id" : 1,
+			"role": "admin",
+			"pass": "Admin$$",
+
+
+			"username":"benji",
+			"id" : 2,
+			"role": "admin",
+			"pass": "AdminiStrativ3P4s$word$",
+
+
+		},
+
+		"moderators":{
+			"username":"temu",
+			"id" : 3,
+			"role": "moderator",
+			"pass": "T3mu$",
+			"about": "moderator at sebari website.",
+
+			"username":"konjit",
+			"id" : 4,
+			"role": "moderator",
+			"pass": "konjit",
+			"about": "i know i am ko...",
+
+
+		}
+
+	}
+}
+]

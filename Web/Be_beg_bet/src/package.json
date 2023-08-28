@@ -1,0 +1,22 @@
+{
+  "name": "fundraiser",
+  "version": "1.0.0",
+  "description": "website made with proud of not knowing any security risks on js :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "p4ndish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "hnzserver": "^2.0.6",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

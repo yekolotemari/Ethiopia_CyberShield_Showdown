@@ -1,0 +1,11 @@
+version : "3"
+
+services:
+    chall2:
+        build : 
+          context: .
+          dockerfile: Dockerfile
+        volumes:
+          - ./src:/var/www/html
+        ports:
+          - 80

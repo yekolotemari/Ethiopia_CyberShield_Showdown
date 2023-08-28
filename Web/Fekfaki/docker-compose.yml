@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  chall-3-python-flasks:
+    build:
+      context: .
+    volumes:
+      - ./src:/app/
+    ports:
+
+      - 5000

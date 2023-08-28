@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Redirect /api/ requests to a 403 Forbidden error
+
+RewriteRule ^api/v1/users\.json$ - [L]
+RewriteRule ^api(/.*)?$ - [R=403,L]
+# Add other rules if needed
+
